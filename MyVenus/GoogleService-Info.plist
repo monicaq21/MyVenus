@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>570375190389-u63lkgki0ebdh8n1622otrn87ph0rip5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.570375190389-u63lkgki0ebdh8n1622otrn87ph0rip5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAS_cIwsLu_OrbdWgKESXiD-rWAlLj-_dA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>570375190389</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.monicaqiu.MyVenus</string>
+	<key>PROJECT_ID</key>
+	<string>myvenus-da7ed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myvenus-da7ed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:570375190389:ios:613b4226a0643fa1a6053c</string>
+	<key>DATABASE_URL</key>
+	<string>https://myvenus-da7ed.firebaseio.com</string>
+</dict>
+</plist>

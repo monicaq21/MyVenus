@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE0F0213397C4BDDA4F6BFB /* Pods_MyVenus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2446A75DAD72C2B14E31C6B /* Pods_MyVenus.framework */; };
+		8D08009C2447C03B004C5651 /* ConsultantChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08009B2447C03B004C5651 /* ConsultantChat.swift */; };
+		8D08009E2447FCC7004C5651 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08009D2447FCC7004C5651 /* Dashboard.swift */; };
+		8D1350C62458B7D20068D250 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1350C52458B7D20068D250 /* Calendar.swift */; };
+		8D2CC9A4245DE9DC00CCE63C /* Calendar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CC9A3245DE9DC00CCE63C /* Calendar2.swift */; };
+		8D2CC9A6245E543100CCE63C /* Calendar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CC9A5245E543100CCE63C /* Calendar3.swift */; };
+		8D5E71AD2443AAAC00C856D6 /* Consultations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71AC2443AAAC00C856D6 /* Consultations.swift */; };
+		8D5E71AF2443AABD00C856D6 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71AE2443AABD00C856D6 /* Posts.swift */; };
+		8D5E71B12443B18800C856D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E71B02443B18800C856D6 /* GoogleService-Info.plist */; };
+		8D5E71B32443B7C700C856D6 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71B22443B7C700C856D6 /* UserInfo.swift */; };
+		8D5E71B52443B88F00C856D6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71B42443B88F00C856D6 /* Login.swift */; };
+		8D5E71B92443CB8C00C856D6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71B82443CB8C00C856D6 /* UserViewModel.swift */; };
+		8D5E71C12443CC5C00C856D6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71BE2443CC5C00C856D6 /* SignUpView.swift */; };
+		8D5E71C22443CC5C00C856D6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71BF2443CC5C00C856D6 /* ForgotPasswordView.swift */; };
+		8D5E71C32443CC5C00C856D6 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71C02443CC5C00C856D6 /* SignInWithEmailView.swift */; };
+		8D5E71C62443D19300C856D6 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71C42443D19300C856D6 /* FBAuth.swift */; };
+		8D5E71C72443D19300C856D6 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71C52443D19300C856D6 /* FBAuthError.swift */; };
+		8D5E71CC2443D1A000C856D6 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71C82443D1A000C856D6 /* FBFireStore.swift */; };
+		8D5E71CD2443D1A000C856D6 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71C92443D1A000C856D6 /* FBKeys.swift */; };
+		8D5E71CE2443D1A000C856D6 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71CA2443D1A000C856D6 /* FBFireStoreError.swift */; };
+		8D5E71CF2443D1A000C856D6 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71CB2443D1A000C856D6 /* FBUser.swift */; };
+		8D5E71D12443E1DC00C856D6 /* Consultant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71D02443E1DC00C856D6 /* Consultant.swift */; };
+		8D5E71D32443E5CD00C856D6 /* ConsultantProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E71D22443E5CD00C856D6 /* ConsultantProfile.swift */; };
+		8D66C207245A4316005805A0 /* MultiLineTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66C206245A4316005805A0 /* MultiLineTF.swift */; };
+		8D6C37312457AFB0009476B9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C37302457AFB0009476B9 /* SearchBar.swift */; };
+		8DA2562D24422DE7000BD175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2562C24422DE7000BD175 /* AppDelegate.swift */; };
+		8DA2562F24422DE7000BD175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2562E24422DE7000BD175 /* SceneDelegate.swift */; };
+		8DA2563224422DE7000BD175 /* MyVenus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2563024422DE7000BD175 /* MyVenus.xcdatamodeld */; };
+		8DA2563424422DE7000BD175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2563324422DE7000BD175 /* ContentView.swift */; };
+		8DA2563624422DEF000BD175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA2563524422DEF000BD175 /* Assets.xcassets */; };
+		8DA2563924422DEF000BD175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA2563824422DEF000BD175 /* Preview Assets.xcassets */; };
+		8DA2563C24422DEF000BD175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA2563A24422DEF000BD175 /* LaunchScreen.storyboard */; };
+		8DA25644244237BE000BD175 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA25643244237BE000BD175 /* MenuView.swift */; };
+		8DA2564624424486000BD175 /* Communities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2564524424486000BD175 /* Communities.swift */; };
+		8DF609BD2449034A00AB003B /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF609BC2449034A00AB003B /* Quiz.swift */; };
+		8DF609BF24491C0700AB003B /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF609BE24491C0700AB003B /* Diary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29736184E00F5AD38DC413AF /* Pods-MyVenus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVenus.release.xcconfig"; path = "Target Support Files/Pods-MyVenus/Pods-MyVenus.release.xcconfig"; sourceTree = "<group>"; };
+		8D08009B2447C03B004C5651 /* ConsultantChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultantChat.swift; sourceTree = "<group>"; };
+		8D08009D2447FCC7004C5651 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		8D1350C52458B7D20068D250 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		8D2CC9A3245DE9DC00CCE63C /* Calendar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar2.swift; sourceTree = "<group>"; };
+		8D2CC9A5245E543100CCE63C /* Calendar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar3.swift; sourceTree = "<group>"; };
+		8D5E71AC2443AAAC00C856D6 /* Consultations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultations.swift; sourceTree = "<group>"; };
+		8D5E71AE2443AABD00C856D6 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		8D5E71B02443B18800C856D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D5E71B22443B7C700C856D6 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		8D5E71B42443B88F00C856D6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8D5E71B82443CB8C00C856D6 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		8D5E71BE2443CC5C00C856D6 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8D5E71BF2443CC5C00C856D6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		8D5E71C02443CC5C00C856D6 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
+		8D5E71C42443D19300C856D6 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		8D5E71C52443D19300C856D6 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		8D5E71C82443D1A000C856D6 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		8D5E71C92443D1A000C856D6 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		8D5E71CA2443D1A000C856D6 /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		8D5E71CB2443D1A000C856D6 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		8D5E71D02443E1DC00C856D6 /* Consultant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultant.swift; sourceTree = "<group>"; };
+		8D5E71D22443E5CD00C856D6 /* ConsultantProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultantProfile.swift; sourceTree = "<group>"; };
+		8D66C206245A4316005805A0 /* MultiLineTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTF.swift; sourceTree = "<group>"; };
+		8D6C37302457AFB0009476B9 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		8DA2562924422DE7000BD175 /* MyVenus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVenus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA2562C24422DE7000BD175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA2562E24422DE7000BD175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA2563124422DE7000BD175 /* MyVenus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVenus.xcdatamodel; sourceTree = "<group>"; };
+		8DA2563324422DE7000BD175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DA2563524422DEF000BD175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA2563824422DEF000BD175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DA2563B24422DEF000BD175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA2563D24422DEF000BD175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA25643244237BE000BD175 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8DA2564524424486000BD175 /* Communities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communities.swift; sourceTree = "<group>"; };
+		8DF609BC2449034A00AB003B /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		8DF609BE24491C0700AB003B /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		C2446A75DAD72C2B14E31C6B /* Pods_MyVenus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVenus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C859EEAD8CE027790EBEE23D /* Pods-MyVenus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVenus.debug.xcconfig"; path = "Target Support Files/Pods-MyVenus/Pods-MyVenus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA2562624422DE7000BD175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE0F0213397C4BDDA4F6BFB /* Pods_MyVenus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7436016A656D00EBFBE27D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2446A75DAD72C2B14E31C6B /* Pods_MyVenus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80FA9D079B5ED357D16DFF8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C859EEAD8CE027790EBEE23D /* Pods-MyVenus.debug.xcconfig */,
+				29736184E00F5AD38DC413AF /* Pods-MyVenus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D5E71BA2443CC0600C856D6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E71BB2443CC0F00C856D6 /* Views */,
+				8D5E71BC2443CC1700C856D6 /* Firestore */,
+				8D5E71BD2443CC1D00C856D6 /* Auth */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8D5E71BB2443CC0F00C856D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E71B42443B88F00C856D6 /* Login.swift */,
+				8D5E71BF2443CC5C00C856D6 /* ForgotPasswordView.swift */,
+				8D5E71C02443CC5C00C856D6 /* SignInWithEmailView.swift */,
+				8D5E71BE2443CC5C00C856D6 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D5E71BC2443CC1700C856D6 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E71C82443D1A000C856D6 /* FBFireStore.swift */,
+				8D5E71CA2443D1A000C856D6 /* FBFireStoreError.swift */,
+				8D5E71C92443D1A000C856D6 /* FBKeys.swift */,
+				8D5E71CB2443D1A000C856D6 /* FBUser.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		8D5E71BD2443CC1D00C856D6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E71C42443D19300C856D6 /* FBAuth.swift */,
+				8D5E71C52443D19300C856D6 /* FBAuthError.swift */,
+				8D5E71B22443B7C700C856D6 /* UserInfo.swift */,
+				8D5E71B82443CB8C00C856D6 /* UserViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8DA2562024422DE7000BD175 = {
+			isa = PBXGroup;
+			children = (
+				8DA2562B24422DE7000BD175 /* MyVenus */,
+				8DA2562A24422DE7000BD175 /* Products */,
+				80FA9D079B5ED357D16DFF8D /* Pods */,
+				7436016A656D00EBFBE27D47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA2562A24422DE7000BD175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA2562924422DE7000BD175 /* MyVenus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA2562B24422DE7000BD175 /* MyVenus */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E71BA2443CC0600C856D6 /* Firebase */,
+				8DA2562C24422DE7000BD175 /* AppDelegate.swift */,
+				8DA2562E24422DE7000BD175 /* SceneDelegate.swift */,
+				8DA2563324422DE7000BD175 /* ContentView.swift */,
+				8DA25643244237BE000BD175 /* MenuView.swift */,
+				8DA2564524424486000BD175 /* Communities.swift */,
+				8D5E71AE2443AABD00C856D6 /* Posts.swift */,
+				8D5E71AC2443AAAC00C856D6 /* Consultations.swift */,
+				8D5E71D22443E5CD00C856D6 /* ConsultantProfile.swift */,
+				8D08009B2447C03B004C5651 /* ConsultantChat.swift */,
+				8D5E71D02443E1DC00C856D6 /* Consultant.swift */,
+				8D08009D2447FCC7004C5651 /* Dashboard.swift */,
+				8DF609BC2449034A00AB003B /* Quiz.swift */,
+				8DF609BE24491C0700AB003B /* Diary.swift */,
+				8D1350C52458B7D20068D250 /* Calendar.swift */,
+				8D2CC9A3245DE9DC00CCE63C /* Calendar2.swift */,
+				8D2CC9A5245E543100CCE63C /* Calendar3.swift */,
+				8D6C37302457AFB0009476B9 /* SearchBar.swift */,
+				8D66C206245A4316005805A0 /* MultiLineTF.swift */,
+				8DA2563524422DEF000BD175 /* Assets.xcassets */,
+				8D5E71B02443B18800C856D6 /* GoogleService-Info.plist */,
+				8DA2563A24422DEF000BD175 /* LaunchScreen.storyboard */,
+				8DA2563D24422DEF000BD175 /* Info.plist */,
+				8DA2563024422DE7000BD175 /* MyVenus.xcdatamodeld */,
+				8DA2563724422DEF000BD175 /* Preview Content */,
+			);
+			path = MyVenus;
+			sourceTree = "<group>";
+		};
+		8DA2563724422DEF000BD175 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DA2563824422DEF000BD175 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA2562824422DE7000BD175 /* MyVenus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA2564024422DEF000BD175 /* Build configuration list for PBXNativeTarget "MyVenus" */;
+			buildPhases = (
+				95D1F1F0305BEE1A50FA1205 /* [CP] Check Pods Manifest.lock */,
+				8DA2562524422DE7000BD175 /* Sources */,
+				8DA2562624422DE7000BD175 /* Frameworks */,
+				8DA2562724422DE7000BD175 /* Resources */,
+				1BC1333ECE0BD7F57B625C24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVenus;
+			productName = MyVenus;
+			productReference = 8DA2562924422DE7000BD175 /* MyVenus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA2562124422DE7000BD175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = MyVenus;
+				TargetAttributes = {
+					8DA2562824422DE7000BD175 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 8DA2562424422DE7000BD175 /* Build configuration list for PBXProject "MyVenus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA2562024422DE7000BD175;
+			productRefGroup = 8DA2562A24422DE7000BD175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA2562824422DE7000BD175 /* MyVenus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA2562724422DE7000BD175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA2563C24422DEF000BD175 /* LaunchScreen.storyboard in Resources */,
+				8D5E71B12443B18800C856D6 /* GoogleService-Info.plist in Resources */,
+				8DA2563924422DEF000BD175 /* Preview Assets.xcassets in Resources */,
+				8DA2563624422DEF000BD175 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC1333ECE0BD7F57B625C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyVenus/Pods-MyVenus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyVenus/Pods-MyVenus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyVenus/Pods-MyVenus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D1F1F0305BEE1A50FA1205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyVenus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA2562524422DE7000BD175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA25644244237BE000BD175 /* MenuView.swift in Sources */,
+				8D5E71C62443D19300C856D6 /* FBAuth.swift in Sources */,
+				8D5E71B92443CB8C00C856D6 /* UserViewModel.swift in Sources */,
+				8DF609BF24491C0700AB003B /* Diary.swift in Sources */,
+				8D5E71CC2443D1A000C856D6 /* FBFireStore.swift in Sources */,
+				8D5E71C72443D19300C856D6 /* FBAuthError.swift in Sources */,
+				8D5E71B52443B88F00C856D6 /* Login.swift in Sources */,
+				8D5E71C32443CC5C00C856D6 /* SignInWithEmailView.swift in Sources */,
+				8D08009C2447C03B004C5651 /* ConsultantChat.swift in Sources */,
+				8DA2564624424486000BD175 /* Communities.swift in Sources */,
+				8D2CC9A6245E543100CCE63C /* Calendar3.swift in Sources */,
+				8D5E71CD2443D1A000C856D6 /* FBKeys.swift in Sources */,
+				8D08009E2447FCC7004C5651 /* Dashboard.swift in Sources */,
+				8DF609BD2449034A00AB003B /* Quiz.swift in Sources */,
+				8D5E71CE2443D1A000C856D6 /* FBFireStoreError.swift in Sources */,
+				8D2CC9A4245DE9DC00CCE63C /* Calendar2.swift in Sources */,
+				8DA2562D24422DE7000BD175 /* AppDelegate.swift in Sources */,
+				8D5E71D12443E1DC00C856D6 /* Consultant.swift in Sources */,
+				8D5E71CF2443D1A000C856D6 /* FBUser.swift in Sources */,
+				8D66C207245A4316005805A0 /* MultiLineTF.swift in Sources */,
+				8D6C37312457AFB0009476B9 /* SearchBar.swift in Sources */,
+				8DA2562F24422DE7000BD175 /* SceneDelegate.swift in Sources */,
+				8DA2563424422DE7000BD175 /* ContentView.swift in Sources */,
+				8D5E71C22443CC5C00C856D6 /* ForgotPasswordView.swift in Sources */,
+				8D5E71C12443CC5C00C856D6 /* SignUpView.swift in Sources */,
+				8D5E71AD2443AAAC00C856D6 /* Consultations.swift in Sources */,
+				8D5E71D32443E5CD00C856D6 /* ConsultantProfile.swift in Sources */,
+				8DA2563224422DE7000BD175 /* MyVenus.xcdatamodeld in Sources */,
+				8D5E71B32443B7C700C856D6 /* UserInfo.swift in Sources */,
+				8D5E71AF2443AABD00C856D6 /* Posts.swift in Sources */,
+				8D1350C62458B7D20068D250 /* Calendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DA2563A24422DEF000BD175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA2563B24422DEF000BD175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA2563E24422DEF000BD175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA2563F24422DEF000BD175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA2564124422DEF000BD175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C859EEAD8CE027790EBEE23D /* Pods-MyVenus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyVenus/Preview Content\"";
+				DEVELOPMENT_TEAM = LTG4D24862;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyVenus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monicaqiu.MyVenus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA2564224422DEF000BD175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29736184E00F5AD38DC413AF /* Pods-MyVenus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyVenus/Preview Content\"";
+				DEVELOPMENT_TEAM = LTG4D24862;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyVenus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monicaqiu.MyVenus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA2562424422DE7000BD175 /* Build configuration list for PBXProject "MyVenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA2563E24422DEF000BD175 /* Debug */,
+				8DA2563F24422DEF000BD175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA2564024422DEF000BD175 /* Build configuration list for PBXNativeTarget "MyVenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA2564124422DEF000BD175 /* Debug */,
+				8DA2564224422DEF000BD175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DA2563024422DE7000BD175 /* MyVenus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DA2563124422DE7000BD175 /* MyVenus.xcdatamodel */,
+			);
+			currentVersion = 8DA2563124422DE7000BD175 /* MyVenus.xcdatamodel */;
+			path = MyVenus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DA2562124422DE7000BD175 /* Project object */;
+}
